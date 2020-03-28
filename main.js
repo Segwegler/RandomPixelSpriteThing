@@ -27,7 +27,7 @@ var rt = .65;
 
 //p5 default funtions
 function setup(){
-	randomSeed(1);
+	//randomSeed(1);
 	createCanvas(windowWidth,windowHeight)
 	sizeOfPixle = 10;
 	s0Min = 3;
