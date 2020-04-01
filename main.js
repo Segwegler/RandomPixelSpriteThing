@@ -33,7 +33,8 @@ var rt;
 //p5 default funtions
 function setup(){
 	//randomSeed(1);
-	createCanvas(floor(windowWidth),floor(windowHeight));
+    //the math here is to fix random seperating with non fixed size
+	createCanvas(floor(windowWidth/2)*2,floor(windowHeight/2)*2);
 	lifeLength = 0;
 	sizeOfPixle = 10;
 	select = false;
