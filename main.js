@@ -11,7 +11,6 @@ var boxy;//bool to display borders on "pixles"
 var lifeLength;//number of steps to run grids through on re-roll
 
 var extraMenuSpace;//a spacer for the menu box
-var mStart; //where the menu will start
 
 var boxes;//boxes is a container class for iBox, used for selection of images
 
@@ -34,7 +33,7 @@ var rt;
 //p5 default funtions
 function setup(){
 	//randomSeed(1);
-	createCanvas(600,800)
+	createCanvas(floor(windowWidth),floor(windowHeight));
 	lifeLength = 0;
 	sizeOfPixle = 10;
 	select = false;
@@ -115,7 +114,6 @@ function buildSetup(){
 	ngy = floor((height-extraMenuSpace)/((nby*sizeOfPixle)+(space*1.5)));
 	bw = nbx * sizeOfPixle;
 	bh = nby * sizeOfPixle;
-	mstart = (height-(extraMenuSpace+space));
 	return changed;
 }
 
