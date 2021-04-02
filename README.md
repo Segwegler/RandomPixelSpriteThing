@@ -15,3 +15,7 @@ RGB color fields with a <B>Set Color</b> button, this sets the fill color of the
 <br>the <b>Re-Roll</b> button re generates all the images as random then runs the life to the life length selected
 
 This was made with: https://p5js.org/
+
+
+This was inspiered by a redidt post
+https://www.reddit.com/r/proceduralgeneration/comments/bl2z13/procedurallyrandomly_generated_pixel_art_creatures/
